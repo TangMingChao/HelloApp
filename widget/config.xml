@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A6169201125716" version="1.0.0">
+  <name>ehaorong</name>
+  <description>
+    企连连混合开发应用
+  </description>
+  <author email="cenjl@mitebank.com" href="http://www.1haorong.com">
+    米擎科技
+  </author>
+  <content src="dist/index.html" />
+  <access origin="*" />
+  <preference name="urlScheme" value="ehaorong"/>
+  <preference name="pageBounce" value="false"/>
+  <preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+  <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+  <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+  <preference name="hScrollBarEnabled" value="true"/>
+  <preference name="vScrollBarEnabled" value="true"/>
+  <preference name="autoLaunch" value="true"/>
+  <preference name="fullScreen" value="false"/>
+  <preference name="autoUpdate" value="true" />
+  <preference name="smartUpdate" value="true" />
+  <preference name="debug" value="false"/>
+  <preference name="statusBarAppearance" value="true"/>
+  <preference name="iOS7StatusBarAppearance" value="true"/>
+  <preference name="softInputMode" value="resize"/>
+  <preference name="softInputBarEnabled" value="true" />
+  <preference name="backgroundMode" value="audio | location | bluetooth-central | bluetooth-peripheral"/>
+  <preference name="querySchemes" value="weixin,sinaweibo,qq"/>
+  <permission name="readPhoneState"/>
+  <permission name="camera"/>
+  <permission name="record"/>
+  <permission name="location"/>
+  <permission name="fileSystem"/>
+  <permission name="internet"/>
+  <permission name="bootCompleted"/>
+  <permission name="hardware"/>
+  <access origin="*"/>
+  <feature name="mobSharePlus">
+    <param name="android_api_key" value="20da70d08442e"/>
+    <param name="android_api_secret" value="96d24562daef76c27a0ec2b1fcabebe8"/>
+    <param name="ios_api_key" value="20da70d08442e"/>
+    <param name="ios_api_secret" value="96d24562daef76c27a0ec2b1fcabebe8"/>
+    <param name="urlScheme" value="tencent1105834770"/>
+    <param name="urlScheme" value="QQ41E9B312"/>
+    <param name="urlScheme" value="wxae9e8adaa15fa038"/>
+    <param name="urlScheme" value="wb3761319172"/>
+    <param name="android_urlScheme" value="tencent1105834770"/>
+  </feature>
+  <feature name="qiyuSdk">
+    <param name="appKey" value="cd2ec1ec53544aea2bed40472381eea4"/>
+    <param name="appName" value="ehaorong"/>
+  </feature>
+</widget>

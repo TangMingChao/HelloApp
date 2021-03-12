@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<security>
+<item name="mobSharePlus_sinaWb_apiKey" value="3761319172"/>
+<item name="mobSharePlus_sinaWb_apiSecret" value="93cfc1ad4457f97064d3c15bca3f0b98"/>
+<item name="mobSharePlus_sinaWb_registUrl" value="http://www.1haorong.com/"/>
+
+<item name="mobSharePlus_wxSession_apiKey" value="wxae9e8adaa15fa038"/>
+<item name="mobSharePlus_wxSession_apiSecret" value="3ff6f5d47ab223aa0f3a90eed93473f1"/>
+
+<item name="mobSharePlus_wxTimeline_apiKey" value="wxae9e8adaa15fa038"/>
+<item name="mobSharePlus_wxTimeline_apiSecret" value="3ff6f5d47ab223aa0f3a90eed93473f1"/>
+
+<item name="mobSharePlus_qq_apiKey" value="1105834770"/>
+<item name="mobSharePlus_qq_apiSecret" value="kwB9JeatfJDYVPXB"/>
+</security>
